@@ -1,0 +1,30 @@
+{
+  "company_name": "Boucherie Joyal Officiel Sorel-Tracy",
+  "slug": "boucherie-joyal-officiel-sorel-tracy-c2247",
+  "facebook_url": "https://www.facebook.com/profile.php?id=100085672384760",
+  "description": "Les Viandes V.Joyal et fils depuis 1994",
+  "industry": "Boucherie",
+  "sector": "Boucherie",
+  "city": "Sorel-Tracy",
+  "address": "Sorel-Tracy",
+  "phone": "+1-450-742-6344",
+  "french_phrases": [
+    "Les Viandes V.Joyal et fils depuis 1994",
+    "Ouverts 7 jours sur 7",
+    "La Chaudière rassembleuse — viande marinée en seau"
+  ],
+  "palette": {
+    "dominant": [
+      "#bb0c14",
+      "#de9ea1"
+    ],
+    "vibrant": "#bb0c14",
+    "dark_vibrant": "#9c141c",
+    "accent_on_dark": "#F14F46",
+    "accent_on_light": "#bb0c14"
+  },
+  "logo": {
+    "rel_path": "_inputs/photos/logo-clean.jpg",
+    "bg_removed": false
+  }
+}
