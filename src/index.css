@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/**
+ * Design tokens — Replit Agent fills these from `_inputs/lead.json.palette`
+ * + the direction picked in `theme-variants.md`. Components NEVER hardcode
+ * color values; they use `text-primary`, `bg-background`, etc. (mapped in
+ * tailwind.config.js).
+ */
+@layer base {
+  :root {
+    /* RGB triples — Tailwind's `<alpha-value>` syntax requires this format. */
+    --background: 255 255 255;
+    --foreground: 15 23 42;
+    --primary: 0 0 0;
+    --primary-foreground: 255 255 255;
+    --accent: 0 0 0;
+    --accent-foreground: 255 255 255;
+    --muted: 241 245 249;
+    --muted-foreground: 100 116 139;
+    --border: 226 232 240;
+  }
+
+  /* Global resets / smoothing */
+  * {
+    border-color: rgb(var(--border));
+  }
+  body {
+    font-family: theme('fontFamily.sans');
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+}
